@@ -1,9 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-                String nomeHeroi = "Thor";
-                int xpHeroi = 8500;
+                String nomeHeroi = "";
+                int xpHeroi;
+
+        System.out.println("Qual o seu Heroi?");
+        nomeHeroi = scanner.next();
+
+        System.out.println("Qual o seu nivel de Xp?");
+        xpHeroi = scanner.nextInt();
 
                 String nivel;
 
